@@ -1,0 +1,45 @@
+
+@media (max-width: 1000px){
+    .banner{
+        height: 30%;
+    }
+}
+@media (max-width: 500px){
+    .banner{
+        /*height: 200px;*/
+        height: 100%;
+       
+    }
+}
+@media (max-width: 680px){
+    .menu{
+       justify-content: center;
+       padding-right: 0px;
+    }
+    .navbar-topo{
+       height: 90px;
+    }
+    
+    nav.navbar-topo .link-icones-topo-sociais, nav.navbar-topo .link-icones-topo-sociais-primeiro{
+       margin: 0;
+    }
+    .navbar-topo .logo img{
+       margin-left: 12px;
+    }
+    .whats-desc{
+       flex-direction: column;
+       height: auto;
+    }
+    .formulario-whatsapp{
+       width: 100%;
+       min-width: 100%;
+    }
+    .whats{
+       width: 100%;
+       min-width: 100%;
+    }
+    .form-menor-whats{
+       width: 90%;
+       margin-left: 5%;
+    }
+ }
